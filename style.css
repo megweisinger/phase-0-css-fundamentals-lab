@@ -3,3 +3,42 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin:0 auto
+}
+nav { /*applies to entire ROW */
+  /*background-color: blue; */
+  text-align: center;
+}
+nav a{ /*applies to each a link text*/
+background-color: red;
+padding: 0 10px;
+margin: 0 auto;
+/* text-align: center; doesnt do anything here except line up text with in its own box*/
+}
+figcaption { /*aplies to entire ROW*/
+  /* background-color:blue; */
+  text-align: center; 
+  font-size: smaller;
+}
+#featured-property p { /*notes specifically saythe P */
+  width: 800px;
+  margin: 0 auto; /*this is what sets the text in the middle of page!!! */
+  text-align:center;
+  /*background-color:green; /*each paragraph green*/ 
+  }
+
+
+/*text says to make each DIV float to the left, 
+notice all the info is under main section called id=details, but then each group under its own div*/
+#details div{
+  float:left; /* each div all on same line now*/
+  width: 25%; /*because we have 4 div, 4x25=100*/
+  background-color: red;
+  text-align: center; /*each centered in their own div*/
+}
